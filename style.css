@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Ubuntu:ital,wght@0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #91EAE4, #7F7FD5 );
+}
+
+.inner-box {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 51px;
+    backdrop-filter: blur(9px);
+    background: linear-gradient(to top left, #ffffffb5, #ffffff30 );
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px #13afa5;
+    z-index: 2;
+}
+
+.signup-header h1 {
+    font-size: 2.5rem;
+    color: rgb(19, 19, 19);
+}
+
+.signup-header p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(125, 125, 125);
+    margin: 5px 0px;
+}
+
+.signup-body {
+    margin: 20px 0px;
+}
+
+.signup-body p {
+    margin: 9px 0px;
+}
+
+.signup-body p label {
+    display: block;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin-top: 6px;
+}
+
+.signup-body p input[type="submit"] {
+    background-color: #24e3d7;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover {
+    background-color: #91EAE4;
+    color: rgb(92, 92, 92);
+}
+
+.signup-footer p {
+    color: #555;
+}
+
+.signup-footer p a {
+    color: #13afa5 ;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffff) ;
+    position: absolute;
+}
+
+.c1 {
+    top: 150px;
+    left: 80px;
+}
+
+.c2 {
+    top: 265px;
+    right: 80px;
+}
